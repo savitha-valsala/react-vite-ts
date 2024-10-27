@@ -7,7 +7,7 @@ interface PackageListItemProps{
 }
 export default function packageListItem({pack} : PackageListItemProps){
     const renderedKeywords = (pack.keywords || []).map((keyword)=>{
-        return <div key={keyword} className="border py-0.5 px-1 text-xs bg-slate-200 rounded">
+        return <div key={keyword} className="border  px-1 text-xs bg-slate-200 rounded">
             {keyword}
         </div>
 

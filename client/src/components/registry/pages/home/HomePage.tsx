@@ -16,16 +16,16 @@ export default function HomePage(){
         </div>
 
     })
-    return <div className="container py-12 space-y-8">
-        <div className="space-y-6 text-center">
-            <h1 className="text-3xl font-bold">
+    return <div className="container border-2">
+        <div className="text-center">
+            <h1 className="text-xl font-bold text-slate-400">
                 The NPM Registry
             </h1>
-            <p className="mx-auto max-w-[600px] text-gray-500">
+            <p className=" text-cyan-500 text-sm">
                 The npm typescript package managing app 
             </p>
         </div>
-        <div className="mx-auto grid grid-cols-4 max-w-[900px] items-stretch gap-4">
+        <div className=" grid grid-cols-4 items-stretch gap-4">
             {renderPackages}
         </div>
         

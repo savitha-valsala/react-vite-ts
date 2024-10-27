@@ -8,8 +8,9 @@ export default function SearchPage(){
 
             return <PackageListItem  pack={result} key={result.name} />
     });
-    return <div>Search Page
-        <div className="space-y-4 mt-4">
+    return <div className="mt-20">
+        Search Page
+        <div className=" relative ">
             {renderedResults}
         </div>
 
