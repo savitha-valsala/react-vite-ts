@@ -15,5 +15,5 @@ export async function getFeaturedPackages(){
 
     });
     const data = await Promise.all(promises);
-    return data as packageDetails[];
+    return data as packageDetails[] ;
 }
